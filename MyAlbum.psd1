@@ -1,13 +1,14 @@
 @{
 
 RootModule = 'MyAlbum.psm1'
-ModuleVersion = '0.1'
+ModuleVersion = '0.1.1'
 GUID = 'ae72ced2-5c91-46e2-9081-e272df6282ef'
 Author = 'Contoso Corporation'
 CompanyName = 'Contoso Corporation'
 Copyright = '© Contoso Corporation. All rights reserved.'
 Description = 'MyAlbum provider discovers the photos in your remote file repository and installs them to your local folder.'
-PowerShellVersion = '3.0'   
+PowerShellVersion = '3.0'
+FunctionsToExport = @()
 RequiredModules = @('PackageManagement')
 PrivateData = @{"PackageManagementProviders" = 'MyAlbum.psm1'
 
