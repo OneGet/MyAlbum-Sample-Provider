@@ -114,7 +114,7 @@ function Add-PackageSource
     )     
     
     Write-Debug ($LocalizedData.ProviderDebugMessage -f ('Add-PackageSource'))  
-
+    Get-PSDrive
     if(-not (Microsoft.PowerShell.Management\Test-Path -path $Location))
     {        
         ThrowError -ExceptionName "System.ArgumentException" `
