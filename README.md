@@ -14,7 +14,7 @@ PS C:\>mkdir c:\test
 PS C:\>New-Item seattle.png
 PS C:\>New-Item "new york.png"
 ```
-####3. Register it
+####3. Register a repository
 
 ``` PowerShell
 Register-PackageSource -Name album -ProviderName myalbum -Location  C:\test
