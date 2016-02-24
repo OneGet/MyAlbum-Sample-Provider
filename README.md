@@ -8,7 +8,7 @@ Let's try it out
 PS C:\>find-packageprovider -name MyAlbum
 PS C:\>install-packageprovider -name MyAlbum -force
 ```
-####2. create a local repository####
+####2. Create a local repository####
 ``` PowerShell
 PS C:\>mkdir c:\test
 PS C:\>New-Item seattle.png
@@ -19,7 +19,7 @@ PS C:\>New-Item "new york.png"
 ``` PowerShell
 Register-PackageSource -Name album -ProviderName myalbum -Location  C:\test
 ```
-####4. find packages
+####4. Find packages
 ``` PowerShell
 Find-Package -ProviderName myalbum
 ```
